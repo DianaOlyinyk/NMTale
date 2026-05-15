@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "subject": "Math",
+  "text": "2 + 2 = ?",
+  "answers": [ "3", "4", "5" ],
+  "correctIndex": 1
+}
