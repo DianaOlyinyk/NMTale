@@ -1,4 +1,5 @@
 ﻿using NMTale.enums;
+using NMTale.DTO;
 
 namespace NMTale.Models
 {
@@ -6,9 +7,10 @@ namespace NMTale.Models
     {
         public int Id { get; set; }
         public Subject Subject { get; set; }
+
         public string Text { get; set; } = string.Empty;
-        public List<string> Answers { get; set; } = new();
-        public int CorrectIndex { get; set; }
+        public string? Image { get; set; }
+        public List<AnswerDto> Answers { get; set; } = new();
     }
 
 }
