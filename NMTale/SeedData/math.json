@@ -1,80 +1,146 @@
-﻿namespace NMTales.SeedData
-{
-    public class math
-    {
-      [
-        {
-          "subject": "Math",
-          "topic": "Logarithms",
-          "text": "Обчисліть: log₂(8)",
-          "imagePath": "/images/math/log_eq1.png",
-          "answers": [
-            {
-              "text": "2",
-              "isCorrect": false
-            },
-            {
-              "text": "3",
-              "isCorrect": true
-            },
-            {
-              "text": "4",
-              "isCorrect": false
-            },
-            {
-              "text": "8",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "subject": "Math",
-          "topic": "Logarithms",
-          "text": "Обчисліть: log₃(81)",
-          "imagePath": "/images/math/log_eq2.png",
-          "answers": [
-            {
-              "text": "2",
-              "isCorrect": false
-            },
-            {
-              "text": "3",
-              "isCorrect": false
-            },
-            {
-              "text": "4",
-              "isCorrect": true
-            },
-            {
-              "text": "5",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "subject": "Math",
-          "topic": "Logarithms",
-          "text": "Обчисліть: log₁₀(1000)",
-          "imagePath": "/images/math/log_eq3.png",
-          "answers": [
-            {
-              "text": "2",
-              "isCorrect": false
-            },
-            {
-              "text": "3",
-              "isCorrect": true
-            },
-            {
-              "text": "4",
-              "isCorrect": false
-            },
-            {
-              "text": "10",
-              "isCorrect": false
-            }
-          ]
-        }
-      ]
-    }
-}
+﻿[
+  {
+    "subject": "Math",
+    "topic": "Logarithms",
+    "text": "Обчисліть: log₂(8)",
+
+    "answers": [
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "subject": "Math",
+    "topic": "Logarithms",
+    "text": "Обчисліть: log₃(81)",
+
+    "answers": [
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "subject": "Math",
+    "topic": "Logarithms",
+    "text": "Обчисліть: log₁₀(1000)",
+   
+    "answers": [
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "subject": "Math",
+    "topic": "Logarithms",
+    "text": "Обчисліть: log₅(5¹⁰)",
+
+    "answers": [
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "text": "50",
+        "isCorrect": false
+      },
+      {
+        "text": "5¹⁰",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "subject": "Math",
+    "topic": "Logarithms",
+    "text": "Обчисліть: log0,5(x) = -2",
+
+    "answers": [
+      {
+        "text": "∞",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "subject": "Math",
+    "topic": "Logarithms",
+    "text": "Обчисліть: log₁₀(1000)",
+ 
+    "answers": [
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      }
+    ]
+  }
+]
